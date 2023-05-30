@@ -1,5 +1,23 @@
-# Levantamento de Dados para o projeto
+# Solução
 
+## Qual é o problema que pretendemos abordar?
+<p>
+    O desperdício de alimentos.
+</p>
+
+## Qual é a solução proposta?
+<p>
+    Propomos melhorar a logística entre estabelecimentos que têm alimentos em bom estado, mas que seriam descartados, e bancos de alimentos. Os bancos de alimentos analisariam, separariam e embalariam esses alimentos para redistribuí-los às comunidades e famílias que necessitam. A logística entre os estabelecimentos e os bancos de alimentos seria realizada por empresas parceiras que disponibilizariam veículos de transporte, em troca de benefícios fiscais acordados com o município onde está localizado o banco de alimentos. Os estabelecimentos doadores também receberiam benefícios com base na regularidade das doações, incentivando a adoção de medidas contra o desperdício por meio de contratos e acordos conforme a demanda do mercado.
+</p>
+
+## Como isso será feito?
+<p>
+    Iremos desenvolver um sistema online, por meio de um site, onde os estabelecimentos poderão se cadastrar fornecendo suas informações básicas. Eles também atualizariam constantemente o site com a lista de alimentos que estão disponíveis para doação e que seriam descartados. Utilizando uma inteligência artificial generativa, o sistema criaria um itinerário para as empresas de transporte, evitando desvios desnecessários de rota e custos adicionais. O sistema também priorizaria os alimentos mais próximos da data de validade.
+</p>
+
+<br>
+
+# Dados
 ## Problemas em relação à produção de alimentos, seus deperdícios e perdas
 <p>
     Anualmente são produzidos cerca de 3,8 bilhões de toneladas de alimentos anualmente, e desses produzidos, cerca de 931 milhões de toneladas são <b>desperdiçados</b> todos os anos.
