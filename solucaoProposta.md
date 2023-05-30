@@ -20,7 +20,7 @@
 # Dados
 ## Problemas em relação à produção de alimentos, seus deperdícios e perdas
 <p>
-    Anualmente são produzidos cerca de 3,8 bilhões de toneladas de alimentos anualmente, e desses produzidos, cerca de 931 milhões de toneladas são <b>desperdiçados</b> todos os anos.
+    Segundo informações da Organização das Nações Unidas para a Alimentação e a Agricultura(FAO), são produzidas anualmente 3,8 bilhões de toneladas de alimento ao redor do mundo, desses produzidos, cerca de 931 milhões de toneladas são <b>desperdiçados</b> todos os anos.
     Se conseguissemos evitar pelo menos metade desse desperdício, nós conseguiriamos alimentar todas as pessoas que passam fome.
 </p>
 <p>
