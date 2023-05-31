@@ -1,6 +1,6 @@
 # Solução
 
-## Qual é o problema que pretendemos abordar?
+## Qual é o problema que iremos abordar?
 <p>
     O desperdício de alimentos.
 </p>
