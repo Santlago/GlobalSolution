@@ -17,8 +17,8 @@ public abstract class InformacoesBasicas {
     // methods
     public void mostraInformacaoBasica() {
         System.out.println("Nome: " + this.nome);
-        System.out.println("Nome: " + this.telefone);
-        this.endereco.mostraEndereco();
+        System.out.println("Telefone: " + this.telefone);
+        this.endereco.mostraInfoEndereco();
     }
 
     // getters and setters

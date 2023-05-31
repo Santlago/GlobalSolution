@@ -6,9 +6,10 @@ public class Veiculo {
     private String placa;
     private String modelo;
     private double capacidade;
+    private Itinerario itinerario;
 
     // constructors
-    public Veiculo(String placa, String modelo, double capacidade) {
+    public Veiculo(String placa, String modelo, double capacidade, Itinerario itinerario) {
         this.placa = placa;
         this.modelo = modelo;
         this.capacidade = capacidade;
@@ -19,6 +20,7 @@ public class Veiculo {
         System.out.println("Placa: " + this.placa);
         System.out.println("Modelo: " + this.modelo);
         System.out.println("Capacidade: " + this.capacidade + "Kg");
+        System.out.println("Itinerário: " + this.itinerario);
     }
 
     // getters and setters

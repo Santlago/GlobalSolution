@@ -10,6 +10,11 @@ public class Alimento {
     private LocalDate dataValidade;
 
     // constructors
+    public Alimento(String nome, int quantidade, LocalDate dataValidade) {
+        this.nome = nome;
+        this.quantidade = quantidade;
+        this.dataValidade = dataValidade;
+    }
 
     // getters and setters
     public String getNome() {

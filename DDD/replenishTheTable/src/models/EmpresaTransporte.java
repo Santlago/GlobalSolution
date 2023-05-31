@@ -1,5 +1,6 @@
 package models;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import enums.Contrato;
@@ -9,16 +10,18 @@ public class EmpresaTransporte extends InformacoesBasicas {
     // constructors
     public EmpresaTransporte(String nome, String telefone, Endereco endereco) {
         super(nome, telefone, endereco);
+        this.statusContrato = Contrato.INATIVO;
+        this.veiculos = new ArrayList<>();
+
         //TODO Auto-generated constructor stub
     }
 
     // attributes
     private List<Veiculo> veiculos;
-    private Itinerario itinerario;
     private Contrato statusContrato;
 
     // methods
-    public void cadastra() {
+    public void cadastrar() {
         this.statusContrato = Contrato.ATIVO;
     }
     public void adicionaVeiculo(Veiculo veiculo) {
@@ -26,11 +29,9 @@ public class EmpresaTransporte extends InformacoesBasicas {
     }
     public void mostraInfoEmpresaTransporte() {
         this.mostraInformacaoBasica();
-        System.out.println("Itinerário: " + this.itinerario);
         System.out.println("Contrato: " + this.statusContrato);
         for (Veiculo veiculo : this.veiculos) {
-            System.out.println(veiculo.getPlaca());
+            System.out.println("    " + veiculo.getPlaca());
         }
-    }
-    
+    } 
 }

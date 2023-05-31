@@ -19,8 +19,8 @@ public class Endereco {
     }
 
     // methods
-    public void mostraEndereco() {
-        System.out.println(this.rua + ", " + this.numero + ", " + this.cidade + ", " + this.estado + ", " + this.cep);
+    public void mostraInfoEndereco() {
+        System.out.println("Endereço: " + this.rua + ", " + this.numero + ", " + this.cidade + ", " + this.estado + ", " + this.cep);
     }
 
     // getters and setters
