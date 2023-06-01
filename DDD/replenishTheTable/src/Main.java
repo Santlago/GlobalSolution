@@ -25,7 +25,7 @@ public class Main {
         // Showing Estabelecimento informations
         estabelecimento1.mostrarInfoEstabelecimento();
 
-        System.out.println("---------------------------Ativando Contrato---------------------------");
+        System.out.println("---------------------------Ativando Contrato do Estabelecimento---------------------------");
 
         // Registering Estabalecimento
         estabelecimento1.cadastrar();
@@ -33,7 +33,7 @@ public class Main {
         // Showing Estabelecimento informations
         estabelecimento1.mostrarInfoEstabelecimento();
         
-        System.out.println("---------------------------Adicionando Alimentos---------------------------");
+        System.out.println("---------------------------Adicionando Alimentos ao estabelecimento---------------------------");
 
         // Adding maçã and limão to Estabelecimento
         estabelecimento1.adicionarAlimento(maca);
