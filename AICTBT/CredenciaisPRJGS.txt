@@ -1,0 +1,38 @@
+Credenciais IA & CHATBOT - Global Solution
+
+Nome: Breno Lemes Santiago RM: 552270 TDSPK
+Nome: Daniel dos Santos Araujo Faria RM: 99067 TDSPK
+Nome: Felipe de Almeida Cardoso RM: 552489 TDSPK
+Nome: Francineldo Luan Martins Alvelino RM: 99558 TDSPI
+Nome: Vitória Maria de Camargo RM: 552344 TDSPK
+
+<<<<<Watson Assistant>>>>> 
+API key: zRthHilurxC5zIDR3VnQYvpyUh-NUMDXfjE0XbiOwBCZ
+
+URL: https://api.us-south.assistant.watson.cloud.ibm.com/instances/23db551e-a6d6-45cc-98c3-d95fcbf92792
+
+Assistant ID: 160a80fa-560c-4e94-a798-e73ee5e473b9
+<------------------------------------------------------------------------------------------------------->
+<<<<<Language Translator>>>>> 
+API key: HFsDjELIKbd2baJelgbwn2TPJTnVWqJRISz9UNxL_8WT
+
+URL: https://api.us-south.language-translator.watson.cloud.ibm.com/instances/baa6d6e4-fb19-490d-96f8-528840f663e1
+<----------------------------------------------------------------------------------------------------------------->
+
+<<<<<Speech to Text>>>>> 
+API key: QsVCTcLug15ldcDu6UwnzXKWmQY1R5Mi1RrAvtKYycKY
+
+URL: https://api.us-south.speech-to-text.watson.cloud.ibm.com/instances/b55623d2-161c-4f9b-af92-b9dd6e72ef84
+<------------------------------------------------------------------------------------------------------------->
+
+<<<<<Text to Speech>>>>> 
+API key: tFkXU-W5Yo6nhxmEprycVmQrEQkA30oEE4laBw_XCUQ8
+
+URL:https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/3f436d80-703e-4766-9b9f-135a5051cdfa
+<----------------------------------------------------------------------------------------------------------->
+
+<<<<<Telegram>>>>> 
+	Nome: @replenishthetableGS_bot
+
+	Token: 6064284821:AAH6BKO6TMuLXBllYDThgAK0bNuAly-1Xl8
+<-------------------------------------------------------------------------------------------------------------->
