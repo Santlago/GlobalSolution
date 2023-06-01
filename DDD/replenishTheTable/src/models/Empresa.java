@@ -1,6 +1,6 @@
 package models;
 
-public abstract class InformacoesBasicas {
+public abstract class Empresa {
     
     // attributes
     protected String nome;
@@ -8,7 +8,7 @@ public abstract class InformacoesBasicas {
     protected Endereco endereco;
 
     // constructors
-    public InformacoesBasicas(String nome, String telefone, Endereco endereco) {
+    public Empresa(String nome, String telefone, Endereco endereco) {
         this.nome = nome;
         this.telefone = telefone;
         this.endereco = endereco;

@@ -5,7 +5,7 @@ import java.util.List;
 
 import enums.Contrato;
 
-public class Estabelecimento extends InformacoesBasicas {
+public class Estabelecimento extends Empresa {
     
     // attributes
     private List<Alimento> alimento;

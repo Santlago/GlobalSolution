@@ -5,7 +5,7 @@ import java.util.List;
 
 import enums.Contrato;
 
-public class EmpresaTransporte extends InformacoesBasicas {
+public class EmpresaTransporte extends Empresa {
 
     // constructors
     public EmpresaTransporte(String nome, String telefone, Endereco endereco) {
