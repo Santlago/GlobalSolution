@@ -25,7 +25,7 @@
 </p>
 <p>
     Por que ocorre esse desperdício?<br>
-    Por causa de 3 principais fatores: <b>Estética dos alimentos, Rótulos de data de valdiade mal elaborados e descarte de comidas prontas.</b><br>
+    Por causa de 3 principais fatores: <b>Estética dos alimentos, Rótulos de data de validade mal elaborados e descarte de comidas prontas.</b><br>
     Como resolver esses problemas
     <ul>
         <li>ESTÉTICA DOS ALIMENTOS: Adoção de medidas contra o desperdício de alimentos nos supermercados, assim como foi feito pela França em 2016, obrigando os supermercados a doarem os alimentos que não foram vendidos pela sua estética para bancos de alimentos e instituições de caridade.</li>
