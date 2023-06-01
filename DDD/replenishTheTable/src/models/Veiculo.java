@@ -13,14 +13,15 @@ public class Veiculo {
         this.placa = placa;
         this.modelo = modelo;
         this.capacidade = capacidade;
+        this.itinerario = itinerario;
     }
 
     // methods
-    public void mostraInfoVeiculo() {
+    public void mostrarInfoVeiculo() {
         System.out.println("Placa: " + this.placa);
         System.out.println("Modelo: " + this.modelo);
         System.out.println("Capacidade: " + this.capacidade + "Kg");
-        System.out.println("Itinerário: " + this.itinerario);
+        this.itinerario.mostraInfoItinerario();
     }
 
     // getters and setters
