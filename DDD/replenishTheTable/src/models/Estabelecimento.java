@@ -12,8 +12,8 @@ public class Estabelecimento extends Empresa {
     private Contrato statusContrato;
 
     // constructors
-    public Estabelecimento(String nome, String telefone, Endereco endereco) {
-        super(nome, telefone, endereco);
+    public Estabelecimento(String nome, String telefone, String cnpj, Endereco endereco) {
+        super(nome, telefone, cnpj, endereco);
         this.statusContrato = Contrato.INATIVO;
         this.alimento = new ArrayList<>();
         //TODO Auto-generated constructor stub
@@ -27,11 +27,25 @@ public class Estabelecimento extends Empresa {
         this.statusContrato = Contrato.ATIVO;
     }
     public void mostrarInfoEstabelecimento() {
-        this.mostraInformacaoBasica();
+        this.mostrarInfoEmpresa();
         System.out.println("Contrato: " + this.statusContrato);
         System.out.println("Alimentos: ");
         for (Alimento alimento : this.alimento) {
             System.out.println("    " + alimento.getNome());
         }
-    }    
+    }
+
+    // getters and setters
+    public List<Alimento> getAlimento() {
+        return alimento;
+    }
+    public void setAlimento(List<Alimento> alimento) {
+        this.alimento = alimento;
+    }
+    public Contrato getStatusContrato() {
+        return statusContrato;
+    }
+    public void setStatusContrato(Contrato statusContrato) {
+        this.statusContrato = statusContrato;
+    }   
 }

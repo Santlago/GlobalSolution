@@ -8,8 +8,8 @@ import enums.Contrato;
 public class EmpresaTransporte extends Empresa {
 
     // constructors
-    public EmpresaTransporte(String nome, String telefone, Endereco endereco) {
-        super(nome, telefone, endereco);
+    public EmpresaTransporte(String nome, String telefone, String cnpj, Endereco endereco) {
+        super(nome, telefone, cnpj, endereco);
         this.statusContrato = Contrato.INATIVO;
         this.veiculos = new ArrayList<>();
 
@@ -28,7 +28,7 @@ public class EmpresaTransporte extends Empresa {
         this.veiculos.add(veiculo);
     }
     public void mostraInfoEmpresaTransporte() {
-        this.mostraInformacaoBasica();
+        this.mostrarInfoEmpresa();
         System.out.println("Contrato: " + this.statusContrato);
         for (Veiculo veiculo : this.veiculos) {
             System.out.println("    " + veiculo.getPlaca());

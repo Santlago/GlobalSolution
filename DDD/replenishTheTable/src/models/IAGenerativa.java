@@ -11,8 +11,12 @@ public class IAGenerativa {
     }
 
     // methods
-    public void criarItinerario() {
-        
+    public void criarItinerario(Estabelecimento estabelecimento, Veiculo veiculo, BancoDeAlimentos bancoDeAlimentos) {
+        veiculo.getItinerario().adicionaParada(estabelecimento.getEndereco());
+        veiculo.getItinerario().adicionaParada(bancoDeAlimentos.getEndereco());
+    }
+    public void mostrarInfoIAGenerativa() {
+        System.out.println("URL: " + this.url);
     }
 
     // getters and setters

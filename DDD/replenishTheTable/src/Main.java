@@ -1,9 +1,11 @@
 import java.time.LocalDate;
 
 import models.Alimento;
+import models.BancoDeAlimentos;
 import models.EmpresaTransporte;
 import models.Endereco;
 import models.Estabelecimento;
+import models.IAGenerativa;
 import models.Itinerario;
 import models.Veiculo;
 
@@ -14,13 +16,13 @@ public class Main {
 
         // Creating Estabelecimento1
         Endereco endereco1 = new Endereco("Rua Campos Salles", 690, "Suzano", "SP", "08674-020");
-        Estabelecimento estabelecimento1 = new Estabelecimento("Extra", "(11)4747-7817", endereco1);
+        Estabelecimento estabelecimento1 = new Estabelecimento("Extra", "(11)4747-7817", "11.441.387/0001-38", endereco1);
 
         // Creating maçã
-        Alimento maca = new Alimento("Maçã", 56, LocalDate.of(2023, 7, 26));
+        Alimento maca = new Alimento("Maçã", 56, 9.8, LocalDate.of(2023, 7, 26));
 
         // Creating limão
-        Alimento limao = new Alimento("Limão", 29, LocalDate.of(2023, 8, 4));
+        Alimento limao = new Alimento("Limão", 29, 1.74, LocalDate.of(2023, 8, 4));
 
         // Showing Estabelecimento informations
         estabelecimento1.mostrarInfoEstabelecimento();
@@ -50,7 +52,7 @@ public class Main {
         // Creating EmpresaTransporte
 
         Endereco endereco2 = new Endereco("Rua Arquiteto Olavo Redig de Campos", 105, "São Paulo", "SP", "04709-000");
-        EmpresaTransporte cocacola = new EmpresaTransporte("Coca-Cola", "0800-727-1100", endereco2);
+        EmpresaTransporte cocacola = new EmpresaTransporte("Coca-Cola", "0800-727-1100", "49.190.159/0001-05", endereco2);
 
         // Creating Destino address
         Endereco endereco3 = new Endereco("Av. Morvan Dias de Figueiredo", 6157, "São Paulo", "SP", "02170-901");
@@ -92,5 +94,37 @@ public class Main {
 
         // Showing Veiculo Informations
         veiculo1.mostrarInfoVeiculo();
+
+        System.out.println("---------------------------Criando IA Generativa---------------------------");
+
+        // Creating IAGenerativa
+        IAGenerativa chatgpt = new IAGenerativa("https://chat.openai.com/");
+        
+        // Showing IAGenerativa informarion
+        chatgpt.mostrarInfoIAGenerativa();
+
+        System.out.println("---------------------------Criando Banco de Alimentos---------------------------");
+
+        Endereco endereco7 = new Endereco("Rua Atibaia", 218, "São Paulo", "SP", "01235-010");
+        BancoDeAlimentos bancoDeAlimentos1 = new BancoDeAlimentos("ONG Banco de Alimentos", "(11) 3674-0080", "02.736.449/0001-48", endereco7);
+
+        // Showing BancoDeAlimentos information
+        bancoDeAlimentos1.mostrarInfoBancoDeAlimentos();
+
+        System.out.println("---------------------------Alterando Itinerário do Veiculo---------------------------");
+
+        // Modifying Itinerario
+        chatgpt.criarItinerario(estabelecimento1, veiculo1, bancoDeAlimentos1);
+
+        // Showing Veiculo informations
+        veiculo1.mostrarInfoVeiculo();
+
+        System.out.println("---------------------------Fazendo transporte dos alimentos para o Banco de Alimentos---------------------------");
+
+        // Transporting Alimentos to BancoDeDados
+        bancoDeAlimentos1.transportarAlimentos(estabelecimento1);
+
+        // Showing BandoDeAlimentos informations
+        bancoDeAlimentos1.mostrarInfoBancoDeAlimentos();
     }
 }
