@@ -12,7 +12,7 @@ import models.Veiculo;
 public class Main {
     public static void main(String[] args) throws Exception {
         
-        System.out.println("---------------------------Cadastrando Estabelecimento---------------------------");
+        System.out.println("---------------------------Cadastrando Estabelecimento------------------------------------------------------");
 
         // Creating Estabelecimento1
         Endereco endereco1 = new Endereco("Rua Campos Salles", 690, "Suzano", "SP", "08674-020");
@@ -27,7 +27,7 @@ public class Main {
         // Showing Estabelecimento informations
         estabelecimento1.mostrarInfoEstabelecimento();
 
-        System.out.println("---------------------------Ativando Contrato do Estabelecimento---------------------------");
+        System.out.println("---------------------------Ativando Contrato do Estabelecimento---------------------------------------------");
 
         // Registering Estabalecimento
         estabelecimento1.cadastrar();
@@ -35,7 +35,7 @@ public class Main {
         // Showing Estabelecimento informations
         estabelecimento1.mostrarInfoEstabelecimento();
         
-        System.out.println("---------------------------Adicionando Alimentos ao estabelecimento---------------------------");
+        System.out.println("---------------------------Adicionando Alimentos ao estabelecimento-----------------------------------------");
 
         // Adding maçã and limão to Estabelecimento
         estabelecimento1.adicionarAlimento(maca);
@@ -44,11 +44,11 @@ public class Main {
         // Showing Estabelecimento informations
         estabelecimento1.mostrarInfoEstabelecimento();
 
-        System.out.println("---------------------------Informações dos Alimentos adicionados---------------------------");
+        System.out.println("---------------------------Informações dos Alimentos adicionados--------------------------------------------");
         maca.mostrarInfoAlimento();
         limao.mostrarInfoAlimento();
 
-        System.out.println("---------------------------Cadastrando Empresa de Transporte---------------------------");
+        System.out.println("---------------------------Cadastrando Empresa de Transporte------------------------------------------------");
         // Creating EmpresaTransporte
 
         Endereco endereco2 = new Endereco("Rua Arquiteto Olavo Redig de Campos", 105, "São Paulo", "SP", "04709-000");
@@ -74,7 +74,7 @@ public class Main {
         // Showing EmpresaTransporte
         cocacola.mostraInfoEmpresaTransporte();
 
-        System.out.println("---------------------------Ativando Contrato Empresa de Transporte---------------------------");
+        System.out.println("---------------------------Ativando Contrato Empresa de Transporte------------------------------------------");
 
         // Registering EmpresaTranporte
         cocacola.cadastrar();
@@ -82,7 +82,7 @@ public class Main {
         // Showing EmpresaTransporte
         cocacola.mostraInfoEmpresaTransporte();
 
-        System.out.println("---------------------------Adicionando Veiculo à Empresa de Transporte---------------------------");
+        System.out.println("---------------------------Adicionando Veiculo à Empresa de Transporte--------------------------------------");
         
         // Adding Veiculo EmpresaTransporte
         cocacola.adicionaVeiculo(veiculo1);
@@ -90,12 +90,12 @@ public class Main {
         // Showing EmpresaTransporte
         cocacola.mostraInfoEmpresaTransporte();
 
-        System.out.println("---------------------------Informações do Veiculo adicionado---------------------------");
+        System.out.println("---------------------------Informações do Veiculo adicionado------------------------------------------------");
 
         // Showing Veiculo Informations
         veiculo1.mostrarInfoVeiculo();
 
-        System.out.println("---------------------------Criando IA Generativa---------------------------");
+        System.out.println("---------------------------Criando IA Generativa------------------------------------------------------------");
 
         // Creating IAGenerativa
         IAGenerativa chatgpt = new IAGenerativa("https://chat.openai.com/");
@@ -103,7 +103,7 @@ public class Main {
         // Showing IAGenerativa informarion
         chatgpt.mostrarInfoIAGenerativa();
 
-        System.out.println("---------------------------Criando Banco de Alimentos---------------------------");
+        System.out.println("---------------------------Criando Banco de Alimentos-------------------------------------------------------");
 
         Endereco endereco7 = new Endereco("Rua Atibaia", 218, "São Paulo", "SP", "01235-010");
         BancoDeAlimentos bancoDeAlimentos1 = new BancoDeAlimentos("ONG Banco de Alimentos", "(11) 3674-0080", "02.736.449/0001-48", endereco7);
@@ -111,7 +111,7 @@ public class Main {
         // Showing BancoDeAlimentos information
         bancoDeAlimentos1.mostrarInfoBancoDeAlimentos();
 
-        System.out.println("---------------------------Alterando Itinerário do Veiculo---------------------------");
+        System.out.println("---------------------------Alterando Itinerário do Veiculo--------------------------------------------------");
 
         // Modifying Itinerario
         chatgpt.criarItinerario(estabelecimento1, veiculo1, bancoDeAlimentos1);
@@ -119,7 +119,7 @@ public class Main {
         // Showing Veiculo informations
         veiculo1.mostrarInfoVeiculo();
 
-        System.out.println("---------------------------Fazendo transporte dos alimentos para o Banco de Alimentos---------------------------");
+        System.out.println("---------------------------Fazendo transporte dos alimentos para o Banco de Alimentos-----------------------");
 
         // Transporting Alimentos to BancoDeDados
         bancoDeAlimentos1.transportarAlimentos(estabelecimento1);
