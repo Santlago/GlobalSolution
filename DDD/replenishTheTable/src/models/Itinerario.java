@@ -18,19 +18,19 @@ public class Itinerario {
     }
 
     // methods
-    public void adicionaParada(Endereco endereco) {
+    public void adicionarParada(Endereco endereco) {
         this.paradas.add(endereco);
     }
-    public void mostraInfoItinerario() {
+    public void mostrarInfoItinerario() {
         System.out.println("Itinerário: ");
         System.out.print("    Origem: ");
-        this.origem.mostraInfoEndereco();
+        this.origem.mostrarInfoEndereco();
         System.out.print("    Destino: ");
-        this.destino.mostraInfoEndereco();
+        this.destino.mostrarInfoEndereco();
         System.out.println("    Paradas: ");
         for (Endereco parada : this.paradas) {
             System.out.print("      ");
-            parada.mostraInfoEndereco();
+            parada.mostrarInfoEndereco();
         }
     }
 

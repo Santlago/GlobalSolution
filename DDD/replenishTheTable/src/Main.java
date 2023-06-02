@@ -64,15 +64,15 @@ public class Main {
         Endereco endereco4 = new Endereco("Rua Augusta", 123, "São Paulo", "SP", "01234-567");
         Endereco endereco5 = new Endereco("Avenida Paulista", 456, "São Paulo", "SP", "04567-890");
         Endereco endereco6 = new Endereco("Rua Oscar Freire", 789, "São Paulo", "SP", "07890-123");
-        itinerario1.adicionaParada(endereco4);
-        itinerario1.adicionaParada(endereco5);
-        itinerario1.adicionaParada(endereco6);
+        itinerario1.adicionarParada(endereco4);
+        itinerario1.adicionarParada(endereco5);
+        itinerario1.adicionarParada(endereco6);
 
         // Creating Veiculo
         Veiculo veiculo1 = new Veiculo("BRA2E19", "Volkswagen Delivery 10.160", 6000, itinerario1);
 
         // Showing EmpresaTransporte
-        cocacola.mostraInfoEmpresaTransporte();
+        cocacola.mostrarInfoEmpresaTransporte();
 
         System.out.println("---------------------------Ativando Contrato Empresa de Transporte------------------------------------------");
 
@@ -80,15 +80,15 @@ public class Main {
         cocacola.cadastrar();
 
         // Showing EmpresaTransporte
-        cocacola.mostraInfoEmpresaTransporte();
+        cocacola.mostrarInfoEmpresaTransporte();
 
         System.out.println("---------------------------Adicionando Veiculo à Empresa de Transporte--------------------------------------");
         
         // Adding Veiculo EmpresaTransporte
-        cocacola.adicionaVeiculo(veiculo1);
+        cocacola.adicionarVeiculo(veiculo1);
 
         // Showing EmpresaTransporte
-        cocacola.mostraInfoEmpresaTransporte();
+        cocacola.mostrarInfoEmpresaTransporte();
 
         System.out.println("---------------------------Informações do Veiculo adicionado------------------------------------------------");
 

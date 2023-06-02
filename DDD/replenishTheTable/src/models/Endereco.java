@@ -19,7 +19,7 @@ public class Endereco {
     }
 
     // methods
-    public void mostraInfoEndereco() {
+    public void mostrarInfoEndereco() {
         System.out.println("Endereço: " + this.rua + ", " + this.numero + ", " + this.cidade + ", " + this.estado + ", " + this.cep);
     }
 

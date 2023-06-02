@@ -24,10 +24,10 @@ public class EmpresaTransporte extends Empresa {
     public void cadastrar() {
         this.statusContrato = Contrato.ATIVO;
     }
-    public void adicionaVeiculo(Veiculo veiculo) {
+    public void adicionarVeiculo(Veiculo veiculo) {
         this.veiculos.add(veiculo);
     }
-    public void mostraInfoEmpresaTransporte() {
+    public void mostrarInfoEmpresaTransporte() {
         this.mostrarInfoEmpresa();
         System.out.println("Contrato: " + this.statusContrato);
         for (Veiculo veiculo : this.veiculos) {

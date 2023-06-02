@@ -21,7 +21,7 @@ public class Veiculo {
         System.out.println("Placa: " + this.placa);
         System.out.println("Modelo: " + this.modelo);
         System.out.println("Capacidade: " + this.capacidade + "Kg");
-        this.itinerario.mostraInfoItinerario();
+        this.itinerario.mostrarInfoItinerario();
     }
 
     // getters and setters
