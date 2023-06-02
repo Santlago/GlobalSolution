@@ -24,13 +24,12 @@ public class Itinerario {
     public void mostrarInfoItinerario() {
         System.out.println("Itinerário: ");
         System.out.print("    Origem: ");
-        this.origem.mostrarInfoEndereco();
+        System.out.println(this.origem.InfoEndereco());
         System.out.print("    Destino: ");
-        this.destino.mostrarInfoEndereco();
+        System.out.println(this.destino.InfoEndereco());
         System.out.println("    Paradas: ");
         for (Endereco parada : this.paradas) {
-            System.out.print("      ");
-            parada.mostrarInfoEndereco();
+            System.out.println("        " + parada.InfoEndereco());
         }
     }
 

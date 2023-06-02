@@ -17,12 +17,7 @@ public abstract class Empresa {
     }
 
     // methods
-    public void mostrarInfoEmpresa() {
-        System.out.println("Nome: " + this.nome);
-        System.out.println("Telefone: " + this.telefone);
-        System.out.println("CNPJ: " + this.cnpj);
-        this.endereco.mostrarInfoEndereco();
-    }
+    public abstract void mostrarInfo();
 
     // getters and setters
     public String getNome() {

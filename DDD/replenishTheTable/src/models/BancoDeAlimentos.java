@@ -21,10 +21,13 @@ public class BancoDeAlimentos extends Empresa {
             this.alimentosRecolhidos.add(alimento);
         }
     }  
-    public void mostrarInfoBancoDeAlimentos() {
-        this.mostrarInfoEmpresa();
+    @Override
+    public void mostrarInfo() {
+        System.out.println("Nome: " + this.nome);
+        System.out.println("Telefone: " + this.telefone);
+        System.out.println("CNPJ: " + this.cnpj);
+        System.out.println(this.endereco.InfoEndereco());
         System.out.println("Alimentos recebidos: ");
-        
         if (alimentosRecolhidos != null) {
             for (Alimento alimento : this.alimentosRecolhidos) {
                 System.out.println("    " + alimento.getNome());

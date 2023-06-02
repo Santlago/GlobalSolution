@@ -15,8 +15,8 @@ public class IAGenerativa {
         veiculo.getItinerario().adicionarParada(estabelecimento.getEndereco());
         veiculo.getItinerario().adicionarParada(bancoDeAlimentos.getEndereco());
     }
-    public void mostrarInfoIAGenerativa() {
-        System.out.println("URL: " + this.url);
+    public String infoIAGenerativa() {
+        return "URL: " + this.url;
     }
 
     // getters and setters

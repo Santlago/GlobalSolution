@@ -4,13 +4,13 @@ public class Endereco {
     
     // attributes
     private String rua;
-    private int numero;
+    private String numero;
     private String cidade;
     private String estado;
     private String cep;
 
     // constructors
-    public Endereco(String rua, int numero, String cidade, String estado, String cep) {
+    public Endereco(String rua, String numero, String cidade, String estado, String cep) {
         this.rua = rua;
         this.numero = numero;
         this.cidade = cidade;
@@ -19,8 +19,8 @@ public class Endereco {
     }
 
     // methods
-    public void mostrarInfoEndereco() {
-        System.out.println("Endereço: " + this.rua + ", " + this.numero + ", " + this.cidade + ", " + this.estado + ", " + this.cep);
+    public String InfoEndereco() {
+        return "Endereço: " + this.rua + ", " + this.numero + ", " + this.cidade + ", " + this.estado + ", " + this.cep;
     }
 
     // getters and setters
@@ -30,10 +30,10 @@ public class Endereco {
     public void setRua(String rua) {
         this.rua = rua;
     }
-    public int getNumero() {
+    public String getNumero() {
         return numero;
     }
-    public void setNumero(int numero) {
+    public void setNumero(String numero) {
         this.numero = numero;
     }
     public String getCidade() {
