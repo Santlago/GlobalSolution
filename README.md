@@ -1,4 +1,4 @@
-# Replenish the table[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=200&duration=2000&pause=1000&width=120&lines=%F0%9F%98%8B%F0%9F%8D%BD%EF%B8%8F%F0%9F%8D%9D%F0%9F%8D%89)](https://git.io/typing-svg)
+# Replenish the table[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=200&duration=3500&pause=1000&vCenter=true&repeat=false&width=120&lines=%F0%9F%98%8B%F0%9F%8D%BD%EF%B8%8F%F0%9F%8D%9D%F0%9F%8D%89)](https://git.io/typing-svg)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=200&pause=1000&width=475&lines=A+world+without+hunger%2C+one+table+at+a+time)](https://git.io/typing-svg)
 
