@@ -1,4 +1,4 @@
-# Replenish the table
+# Replenish the Table
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=200&pause=1000&color=F7F7F7&width=475&lines=A+world+without+hunger%2C+one+table+at+a+time)](https://git.io/typing-svg)
 
