@@ -1,6 +1,6 @@
 # Replenish the table
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/A+world+without+hunger,+one+table+at+a+timeFirst+line+of+text;Second+line+of+text)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=200&pause=1000&width=475&lines=A+world+without+hunger%2C+one+table+at+a+time)](https://git.io/typing-svg)
 
 ## Qual é o problema que pretendemos abordar?
 <p>
