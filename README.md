@@ -1,4 +1,6 @@
-# Solução
+# Replenish the table
+
+[![Typing SVG](https://readme-typing-svg.demolab.com/A+world+without+hunger,+one+table+at+a+timeFirst+line+of+text;Second+line+of+text)](https://git.io/typing-svg)
 
 ## Qual é o problema que pretendemos abordar?
 <p>
