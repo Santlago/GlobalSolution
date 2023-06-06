@@ -1,0 +1,983 @@
+{
+  "intents": [
+    {
+      "intent": "bancoalimento",
+      "examples": [
+        {
+          "text": "Banco de alimentos"
+        },
+        {
+          "text": "Me dê informações sobre o banco de alimentos"
+        },
+        {
+          "text": "O que é banco de alimentos?"
+        },
+        {
+          "text": "O que os bancos de alimentos fazem?"
+        },
+        {
+          "text": "O que são os bancos de alimentos?"
+        },
+        {
+          "text": "Quero informações sobre os bancos de alimentos"
+        },
+        {
+          "text": "Quero saber sobre os bancos de alimentos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "beneficios",
+      "examples": [
+        {
+          "text": "As empresas doadoras possuem algum tipo de benefício fiscal?"
+        },
+        {
+          "text": "As empresas doadoras recebem algum tipo de incentivo fiscal?"
+        },
+        {
+          "text": "Empresas que contribuem com doações possuem direito a benefícios fiscais?"
+        },
+        {
+          "text": "Empresas que contribuem conseguem algum incentivo fiscal?"
+        },
+        {
+          "text": "Existe algum tipo de benefício fiscal para empresas?"
+        },
+        {
+          "text": "Se a minha empresa realizar doações ela pode receber algum incentivo fiscal?"
+        },
+        {
+          "text": "Se uma empresa doar constantemente ela recebe algum tipo de benefício?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "combatefome",
+      "examples": [
+        {
+          "text": "Combate a fome é importante por quê?"
+        },
+        {
+          "text": "Combate a fome realmente é algo importante? Por quê?"
+        },
+        {
+          "text": "Combater a fome é importante?"
+        },
+        {
+          "text": "Por que combater a fome é algo necessário?"
+        },
+        {
+          "text": "Por que o combate a fome é tão importante?"
+        },
+        {
+          "text": "Qual é a importância do combate a fome?"
+        },
+        {
+          "text": "Quero informações sobre a importância do combate a fome."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "doarbanco",
+      "examples": [
+        {
+          "text": "Como consigo doar para o banco de alimentos?"
+        },
+        {
+          "text": "Como faço para doar para o banco de alimentos?"
+        },
+        {
+          "text": "Como posso doar para o banco de alimentos?"
+        },
+        {
+          "text": "Como realizo doações ao banco de alimentos?"
+        },
+        {
+          "text": "O que é necessário para conseguir realizar doações para o banco de alimentos?"
+        },
+        {
+          "text": "O que preciso fazer para doar para o banco de alimentos?"
+        },
+        {
+          "text": "Quero doar para o banco de alimentos."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "fatosfome",
+      "examples": [
+        {
+          "text": "Fatos sobre a fome."
+        },
+        {
+          "text": "Quero saber alguns fatos sobre a fome."
+        },
+        {
+          "text": "Quero saber mais sobre alguns dados sobre a fome"
+        },
+        {
+          "text": "Tenho curiosidade em saber alguns dados sobre a fome."
+        },
+        {
+          "text": "Você pode me dar algumas informações sobre a fome?"
+        },
+        {
+          "text": "Você pode me dizer alguns fatos sobre a fome?"
+        },
+        {
+          "text": "Você pode me informar alguns fatos sobre a fome?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ideiareplenish",
+      "examples": [
+        {
+          "text": "O que o Replenish The Table desenvolveu como ideia?"
+        },
+        {
+          "text": "Qual é a ideia desenvolvida pelo Replenish The Table?"
+        },
+        {
+          "text": "Qual é a ideia do projeto Replenish The Table?"
+        },
+        {
+          "text": "Qual é a ideia proposta pelo Replenish The Table?"
+        },
+        {
+          "text": "Qual foi a ideia pensada pelo Replenish The Table?"
+        },
+        {
+          "text": "Quero informações sobre a ideia desenvolvida pelo Replenish The Table."
+        },
+        {
+          "text": "Quero saber qual é a ideia do Replenish The Table"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "objetivobanco",
+      "examples": [
+        {
+          "text": "O banco de alimentos possui algum objetivo?"
+        },
+        {
+          "text": "O banco de alimentos tem algum objetivo?"
+        },
+        {
+          "text": "Qual é a intenção do banco de alimentos?"
+        },
+        {
+          "text": "Qual é o intuito do banco de alimentos?"
+        },
+        {
+          "text": "Qual é o objetivo dos bancos de alimentos?"
+        },
+        {
+          "text": "Quero me informar sobre o intuito do banco de alimentos"
+        },
+        {
+          "text": "Quero saber qual é o objetivo do banco de alimentos"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "objetivoodsdois",
+      "examples": [
+        {
+          "text": "A ODS 2 fala sobre o que?"
+        },
+        {
+          "text": "Me explique sobre a ODS 2"
+        },
+        {
+          "text": "Qual é a intenção da ODS 2?"
+        },
+        {
+          "text": "Qual é a proposta da ODS 2?"
+        },
+        {
+          "text": "Qual é o intuito da ODS 2?"
+        },
+        {
+          "text": "Qual é o objetivo da ODS 2?"
+        },
+        {
+          "text": "Quero informações sobre a ODS 2"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ods",
+      "examples": [
+        {
+          "text": "Me dê informações sobre a ODS"
+        },
+        {
+          "text": "Me explique a intenção da ODS"
+        },
+        {
+          "text": "Me explique o que é ODS"
+        },
+        {
+          "text": "O que é ODS?"
+        },
+        {
+          "text": "Qual é o conceito de ODS?"
+        },
+        {
+          "text": "Tenho curiosidade em saber sobre ODS"
+        },
+        {
+          "text": "Você pode me informar sobre a ODS?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "participaempresa",
+      "examples": [
+        {
+          "text": "Como é a participação de empresas nos bancos de alimentos?"
+        },
+        {
+          "text": "Como é a relação entre empresas e o banco de alimentos?"
+        },
+        {
+          "text": "Como é feita a contribuição de empresas no banco de alimentos?"
+        },
+        {
+          "text": "Como empresa e banco de alimentos se relacionam?"
+        },
+        {
+          "text": "Como empresas contribuem com o banco de aimentos?"
+        },
+        {
+          "text": "De qual modo as empresas contribuem com o banco de alimentos?"
+        },
+        {
+          "text": "Quero informações sobre o modo que as empresas se relacionam com o banco de alimentos."
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "processobanco",
+      "examples": [
+        {
+          "text": "Como é o processo feito pelos bancos de alimentos?"
+        },
+        {
+          "text": "Como é o processo que os bancos de alimentos realizam?"
+        },
+        {
+          "text": "Como funciona o processo feito pelos bancos de alimentos?"
+        },
+        {
+          "text": "O que o banco de alimentos faz efetivamente?"
+        },
+        {
+          "text": "Qual é o processo realizado pelos bancos de alimentos?"
+        },
+        {
+          "text": "Quero informações sobre o processo realizado pelos bancos de alimentos."
+        },
+        {
+          "text": "Quero saber sobre o processo que o banco de alimento passa"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "replenishconceito",
+      "examples": [
+        {
+          "text": "Me explique sobre o Replenish The Table"
+        },
+        {
+          "text": "O que é o projeto Replenish The Table?"
+        },
+        {
+          "text": "O que é o projeto RTT?"
+        },
+        {
+          "text": "O que é o Replenish The Table?"
+        },
+        {
+          "text": "O que é o RTT?"
+        },
+        {
+          "text": "Qual é o conceito do projeto Replenish The Table?"
+        },
+        {
+          "text": "Qual é o conceito do projeto RTT?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "solucaoreplenish",
+      "examples": [
+        {
+          "text": "Como o Replenish The Table pretende colocar sua solução em prática?"
+        },
+        {
+          "text": "Como o Replenish The Table pretende desenvolver sua solução?"
+        },
+        {
+          "text": "Como o Replenish The Table vai colocar a soluçao em prática?"
+        },
+        {
+          "text": "Como o RTT pretende desenvolver sua solução?"
+        },
+        {
+          "text": "Como o RTT vai colocar a solução em prática?"
+        },
+        {
+          "text": "Como vai ser o desenvolvimento da solução do Replenish The Table?"
+        },
+        {
+          "text": "Como vai ser o desenvolvimento da solução do RTT?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "gerais-especificos",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "incentivos específicos",
+          "synonyms": [
+            "especificos",
+            "específicos",
+            "IE",
+            "incentivos especificos"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "incentivos gerais",
+          "synonyms": [
+            "gerais",
+            "IG"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "pf-empresa",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "empresa",
+          "synonyms": [
+            "CNPJ",
+            "EIRELI",
+            "EPP",
+            "LTDA",
+            "ME",
+            "MEI",
+            "SA"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pessoa física",
+          "synonyms": [
+            "pessoa fisica",
+            "PF"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim-nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "NÃO",
+          "synonyms": [
+            "nao",
+            "não",
+            "nn",
+            "no",
+            "nope",
+            "no, thanks"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SIM",
+          "synonyms": [
+            "claro",
+            "claro que sim",
+            "lógico",
+            "of course",
+            "okay",
+            "sim",
+            "ss",
+            "sure",
+            "yes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              },
+              {
+                "text": "Posso ajudar em algo mais?"
+              },
+              {
+                "text": "Consigo te ajudar em mais alguma coisa?"
+              },
+              {
+                "text": "Precisa de ajuda em algo mais?"
+              },
+              {
+                "text": "Você possui outra dúvida?"
+              },
+              {
+                "text": "Mais alguma dúvida?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_8_1685990710314",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "PESSOA FÍSICA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Doador (pessoa física): Você pode ajudar o Banco de Alimentos doando recursos que serão utilizados para a compra de alimentos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1686065083654",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@pf-empresa:(Pessoa física)",
+      "dialog_node": "node_1_1686065166087"
+    },
+    {
+      "type": "standard",
+      "title": "O QUE É REPLENISH THE TABLE?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Replenish The Table é o nome do projeto desenvolvido pelos estudantes da FIAP para realização de sua Global Solution, o RTT tem como objetivo desenvolver uma ideia que ajude a combater a fome e insegurança alimentar no mundo."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#replenishconceito",
+      "dialog_node": "node_1_1686066071646",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "BANCO DE ALIMENTOS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os bancos alimentares ou bancos de alimentos são organizações sem fins lucrativos baseadas no voluntariado e que têm como objetivo a angariação de donativos de bens alimentares e a recuperação de excedentes alimentares da sociedade para os redistribuir entre pessoas necessitadas, evitando qualquer desperdício ou mau uso."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#bancoalimento",
+      "dialog_node": "node_2_1685622990015",
+      "previous_sibling": "node_7_1685991593063"
+    },
+    {
+      "type": "standard",
+      "title": "COMBATE FOME",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A escassez de alimentos é um fator que contribui para a fome, sendo que muitas regiões sofrem com a falta de acesso a alimentos básicos, como arroz, trigo e milho. Esse problema é agravado por questões como mudanças climáticas, conflitos armados, desigualdade social e econômica, e desastres naturais.\nPor isso, é fundamental que haja um esforço global no combate à fome e na garantia de acesso a alimentos para todas as pessoas. Medidas como a promoção da agricultura sustentável, o investimento em sistemas de armazenamento e distribuição de alimentos, a eliminação do desperdício alimentar e a redução das desigualdades sociais e econômicas são essenciais para enfrentar esse desafio.\nO combate à fome e à escassez de alimentos não é apenas uma questão humanitária, mas também uma questão de justiça social e desenvolvimento econômico. É necessário que governos, organizações internacionais, setor privado e sociedade civil atuem juntos para garantir que todas as pessoas tenham acesso a alimentos nutritivos e suficientes para viver com dignidade.\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#combatefome",
+      "dialog_node": "node_2_1685992388524",
+      "previous_sibling": "node_5_1686065083654"
+    },
+    {
+      "type": "standard",
+      "title": "OBJETIVO OD2",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O objetivo de desenvolvimento sustentável 2 trata do combate à fome e da agricultura sustentável. \nTal objetivo visa garantir que até 2030 todas as pessoas em situações vulneráveis tenham acesso a alimentos seguros e nutritivos para o ano todo e seja erradicada a pobreza."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#objetivoodsdois",
+      "dialog_node": "node_3_1685991530615",
+      "previous_sibling": "node_6_1685991211052"
+    },
+    {
+      "type": "standard",
+      "title": "BENEFICIOS FISCAIS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você tem interesse me saber sobre os incentivos gerais ou específicos?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#beneficios",
+      "dialog_node": "node_3_1686065353584",
+      "previous_sibling": "node_6_1686065550142"
+    },
+    {
+      "type": "standard",
+      "title": "EMPRESA",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Doador (empresas): Se a sua empresa atua na área de produção, transporte, armazenamento, comercialização e consumo de alimentos, poderá se integrar ao Banco como fonte doadora de alimentos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1686065083654",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@pf-empresa:empresa",
+      "dialog_node": "node_4_1686065213163",
+      "previous_sibling": "node_1_1686065166087"
+    },
+    {
+      "type": "standard",
+      "title": "COMO DOAR",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você quer doar como pessoa física ou empresa?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#doarbanco",
+      "dialog_node": "node_5_1686065083654",
+      "previous_sibling": "node_3_1686065353584"
+    },
+    {
+      "type": "standard",
+      "title": "SIM",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ODS 1 – Erradicação da pobreza\nODS 2 – Fome zero e agricultura sustentável\nODS 3 – Saúde e bem-estar\nODS 4 – Educação de qualidade\nODS 5 – Igualdade de gênero\nODS 6 – Água potável e saneamento\nODS 7 – Energia limpa e acessível\nODS 8 – Trabalho decente e crescimento econômico\nODS 9 – Indústria, inovação e infraestrutura\nODS 10 – Redução das desigualdades\nODS 11 – Cidades e comunidades sustentáveis\nODS 12 – Consumo e produção responsáveis\nODS 13 – Ação contra a mudança global do clima\nODS 14 – Vida na água\nODS 15 – Vida terrestre\nODS 16 – Paz, justiça e instituições eficazes\nODS 17 – Parcerias e meios de implementação"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1686065550142",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@sim-nao:SIM",
+      "dialog_node": "node_5_1686065620627"
+    },
+    {
+      "type": "standard",
+      "title": "NÃO",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_6_1686065550142",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@sim-nao:NÃO",
+      "dialog_node": "node_5_1686065663202",
+      "previous_sibling": "node_5_1686065620627"
+    },
+    {
+      "type": "standard",
+      "title": "SOLUÇÃO PROJETO",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Iremos desenvolver um sistema online, por meio de um site, onde os estabelecimentos poderão se cadastrar fornecendo suas informações básicas. \nEles também atualizariam constantemente o site com a lista de alimentos que estão disponíveis para doação e que seriam descartados. \nUtilizando uma inteligência artificial generativa, o sistema criaria um itinerário para as empresas de transporte, evitando desvios desnecessários de rota e custos adicionais. O sistema também priorizaria os alimentos mais próximos da data de validade."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#solucaoreplenish",
+      "dialog_node": "node_6_1685991211052",
+      "previous_sibling": "node_9_1685991140475"
+    },
+    {
+      "type": "standard",
+      "title": "INCENTIVOS GERAIS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "• ICMS\nHaverá isenção do ICMS para doações realizadas ao Banco de Alimentos (Decreto Nº 41.577 de 03 de maio de 2002, Art. 1º).\n• IR E CSSL\nAs doações ao Banco de Alimentos também podem reduzir a base de cálculo do Imposto de Renda e da Contribuição Social, usufruindo da permissão de dedutibilidade destas despesas, sejam em mercadorias ou em espécie, prevista pela Lei das Oscips.\nEstas doações são dedutíveis e limitadas a 2% do lucro operacional. Podem resultar em um ganho fiscal de cerca de 34%."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1686065353584",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@gerais-especificos:(incentivos gerais)",
+      "dialog_node": "node_6_1686065377086"
+    },
+    {
+      "type": "standard",
+      "title": "O QUE É ODS?",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os Objetivos de Desenvolvimento Sustentável (ODS) são uma agenda mundial adotada durante a Cúpula das Nações Unidas sobre o Desenvolvimento Sustentável em setembro de 2015, composta por 17 objetivos e 169 metas a serem atingidos até 2030.\nNesta agenda estão previstas ações mundiais nas áreas de erradicação da pobreza, segurança alimentar, agricultura, saúde, educação, igualdade de gênero, redução das desigualdades, energia, água e saneamento, padrões sustentáveis de produção e de consumo, mudança do clima, cidades sustentáveis, proteção e uso sustentável dos oceanos e dos ecossistemas terrestres, crescimento econômico inclusivo, infraestrutura, industrialização, entre outros.\n.\n.\n.\nVocê gostaria de saber quais são as ODS?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ods",
+      "dialog_node": "node_6_1686065550142",
+      "previous_sibling": "node_1_1686066071646"
+    },
+    {
+      "type": "standard",
+      "title": "FATOS SOBRE A FOME",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "• Em 2020, entre 720 milhões e 811 milhões de pessoas em todo o mundo estavam sofrendo de fome, cerca de 161 milhões a mais do que em 2019.\n• Também em 2020, impressionantes 2,4 bilhões de pessoas, ou mais de 30% da população mundial, estavam moderada ou severamente inseguras alimentarmente, sem acesso regular a alimentos adequados.\n• Globalmente, 149,2 milhões de crianças com menos de 5 anos de idade, ou 22,0% do total, estavam sofrendo de retardo de crescimento (nanismo - baixa estatura para a idade)em 2020.\n• Para alcançar a meta de uma redução de 5% no número de crianças com retardo de crescimento até 2025, a taxa atual de declínio anual - 2,1% - deve dobrar para 3,9%.\n• Em 2020, a caquexia (baixo peso para a estatura) afetou 45,4 milhões ou 6,7% das crianças com menos de 5 anos de idade.\n• A parcela de países sobrecarregados por preços elevados de alimentos, que havia sido relativamente estável desde 2016, aumentou drasticamente de 16% em 2019 para 47% em 2020."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#fatosfome",
+      "dialog_node": "node_7_1685991593063",
+      "previous_sibling": "node_3_1685991530615"
+    },
+    {
+      "type": "standard",
+      "title": "PROCESSO BANCO DE ALIMENTOS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A sistemática de trabalho do Banco de Alimentos é muito simples. Os alimentos doados são coletados nos locais e dias indicados pelos doadores. \nEm seguida, as doações são armazenadas na central de arrecadações, um depósito próprio do Banco de Alimentos. \nNo laboratório de análises sensoriais do Banco de Alimentos, equipe de nutricionistas analisam a qualidade dos alimentos e determinam quais os tipos de necessários para as instituições, conforme as quantidades e valores nutricionais ideais para suprir suas necessidades. Posteriormente ocorre a distribuição qualificada dos alimentos, entregues gratuitamente para as instituições assistenciais previamente cadastradas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#processobanco",
+      "dialog_node": "node_8_1685990710314",
+      "previous_sibling": "node_2_1685622990015"
+    },
+    {
+      "type": "standard",
+      "title": "INCENTIVOS ESPECÍFICOS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Além dos incentivos citados no item anterior, poderá haver o engajamento da empresa em outros projetos que poderão resultar em redução do imposto de renda e do ICMS."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1686065353584",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "@gerais-especificos:(incentivos específicos)",
+      "dialog_node": "node_8_1686065458185",
+      "previous_sibling": "node_6_1686065377086"
+    },
+    {
+      "type": "standard",
+      "title": "PARTICIPAÇÃO EMPRESAS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "• A doação de alimentos que não foram vendidos por algum motivo.\n• A doação de alimentos devolvidos pelo varejo ainda bons para o consumo.\n• Produtos com prazo de validade prestes a vencer.\n• Produtos excedentes, rejeitados pelo Controle de Qualidade ou com a embalagem violada.\n• Produção industrializada especificamente para doação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#participaempresa",
+      "dialog_node": "node_9_1685990783408",
+      "previous_sibling": "node_2_1685992388524"
+    },
+    {
+      "type": "standard",
+      "title": "OBJETIVO BANCOS DE ALIMENTOS",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Os Bancos de Alimentos são uma iniciativa de abastecimento e SAN, que visa combater a fome e a insegurança alimentar por meio da arrecadação de doações de gêneros alimentícios que seriam desperdiçados ao longo da cadeia produtiva."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#objetivobanco",
+      "dialog_node": "node_9_1685991046405",
+      "previous_sibling": "node_9_1685990783408"
+    },
+    {
+      "type": "standard",
+      "title": "IDEIA PROJETO",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Propomos melhorar a logística entre estabelecimentos que têm alimentos em bom estado, mas que seriam descartados, e bancos de alimentos. Os bancos de alimentos analisariam, separariam e embalariam esses alimentos para redistribuí-los às comunidades e famílias que necessitam. A logística entre os estabelecimentos e os bancos de alimentos seria realizada \npor empresas parceiras que disponibilizariam veículos de transporte, em troca de benefícios fiscais acordados com o município onde está localizado o banco de alimentos. Os estabelecimentos doadores também receberiam benefícios com base na regularidade \ndas doações, incentivando a adoção de medidas contra o desperdício por meio de contratos e acordos conforme a demanda do mercado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "Bem-vindo"
+      },
+      "conditions": "#ideiareplenish",
+      "dialog_node": "node_9_1685991140475",
+      "previous_sibling": "node_9_1685991046405"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "Global Solution-dialog"
+}
