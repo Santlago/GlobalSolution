@@ -2,6 +2,10 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=200&pause=1000&color=F7F7F7&width=475&lines=A+world+without+hunger%2C+one+table+at+a+time)](https://git.io/typing-svg)
 
+# Vídeo Pitch de apresentação da solução
+
+[![VideoPitch](https://img.youtube.com/vi/e0P7tHPCuU0/0.jpg)](https://www.youtube.com/watch?v=e0P7tHPCuU0)
+
 ## Qual é o problema que pretendemos abordar?
 <p>
     O desperdício de alimentos.
