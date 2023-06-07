@@ -18,11 +18,3 @@ A logística de um banco de alimentos envolve várias etapas. Aqui estão os pri
 </p>
 
 <p>
-    Ao utilizar a inteligência artificial generativa nossa proposta, poderíamos desenvolver um sistema que ajude a otimizar essa logística. Alguns aspectos em que a IA poderia ser aplicada incluem:
-    <ul>
-        <li>Previsão de demanda: Utilizar algoritmos de aprendizado de máquina para prever a quantidade de alimentos que será necessária em cada região, com base em dados históricos e variáveis como sazonalidade, eventos especiais, entre outros.</li>
-        <li>Roteirização e logística: Criar algoritmos que otimizem as rotas de coleta e distribuição dos alimentos, levando em consideração fatores como distância, quantidade de alimentos a serem transportados, capacidade dos veículos, entre outros.</li>
-        <li>Gerenciamento de estoque: Desenvolver um sistema que monitore o estoque de alimentos nos bancos de alimentos e nas ONGs parceiras, garantindo um controle eficiente e evitando desperdícios.</li>
-        <li>Comunicação e integração: Criar uma plataforma digital que facilite a comunicação entre os estabelecimentos doadores, os bancos de alimentos e as ONGs, agilizando o processo de doação e distribuição de alimentos.</li>
-    </ul>
-</p>
