@@ -1,4 +1,4 @@
-# Ideias de soluções
+# Outras soluções pensadas em grupo
 
 <ul>
     <li>
