@@ -292,3 +292,342 @@ footer{
     justify-content: center;
     flex-direction: column;
 }
+
+/*TELA RESPONSIVA PARA TABLET*/
+
+@media screen and (max-width: 768px){
+    section,
+    footer {
+      padding: 30px 0;
+    }
+    
+    h3 {
+      font-size: 36px;
+    }
+    .container {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    
+    .btn {
+      padding: 10px 15px;
+    }
+    nav {
+      flex-direction: column;
+      padding-top: 10px;
+    }
+    
+    nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    nav ul a {
+      margin: 10px 0;
+    }
+    .banner .banner-text {
+      margin: 50px;
+      padding: 0 30px;
+    }
+    .banner .banner-text h1 {
+      font-size: 40px;
+    }
+    
+    .banner .banner-text p {
+      font-size: 24px;
+      margin: 12px 0;
+    }
+
+    .sessão1 .container {
+      flex-wrap: wrap;
+    }
+    
+    .sessão1 .sessão1-text {
+      width: 100%;
+      padding: 0 20px;
+    }
+    
+    .sessão1-text img {
+      border-radius: 15px;
+      width: 100%;
+    }
+    .sessão1 .sessão1-text h3 {
+      font-size: 36px;
+    }
+  
+    .sessão1 .sessão1-img {
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    .dados .card-item {
+      width: 100%;
+    }
+    
+    .dados .card-item img {
+      width: 100%;
+    }
+    
+    .cards {
+      flex-wrap: wrap;
+    }
+    
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .right {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+
+    .left {
+      flex-grow: 1;
+      color: white;
+    }
+
+    
+    .práticas {
+      width: 100%;
+    }
+
+    .IA p {
+      width: 100%;
+      max-width: 100%;
+    }
+    
+    .contato-info {
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    
+    .contato-info .left-side {
+      width: 100%;
+      padding: 20px;
+      border-radius: 14px;
+      margin-bottom: 20px;
+    }
+
+    .contato-info .left-side div i {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+    
+    .contato-info .left-side p {
+      font-size: 14px;
+    }
+    
+    .contato-info .right-side {
+      width: 100%;
+    }
+    
+    .contato-info .right-side input,
+    .contato-info .right-side textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      height: 35px;
+      padding: 10px;
+      border-radius: 9px;
+      transition: 0.3s;
+      border: 1px solid #f1f1f1;
+      color: #212121;
+      font-weight: lighter;
+    }
+         
+    .contato-info .right-side textarea {
+      padding: 10px;
+    }
+    
+    .galeria {
+      width: 100%;
+
+    }
+}
+
+
+
+/*TELA RESPONSIVA PARA CELULAR*/
+@media screen and (max-width: 600px){
+    section,
+    footer {
+      padding: 20px 0;
+    }
+    
+    h3 {
+      font-size: 24px;
+    }
+    .container {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 10px;
+    }
+    
+    .btn {
+      padding: 8px 12px;
+    }   
+    nav {
+      flex-direction: column;
+      padding-top: 10px;
+    }
+    
+    nav ul {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    nav ul a {
+      margin: 10px 0;
+      font-size: 12px;
+    }
+    .banner .banner-text {
+      margin: 30px;
+      padding: 0 15px;
+    }
+    .banner .banner-text h1 {
+      font-size: 30px;
+    }
+    
+    .banner .banner-text p {
+      font-size: 18px;
+      margin: 8px 0;
+    }
+    .sessão1 .container {
+      flex-wrap: wrap;
+    }
+    
+    .sessão1 .sessão1-text {
+      width: 100%;
+      padding: 0 10px;
+    }
+    
+    .sessão1-text img {
+      border-radius: 10px;
+      width: 100%;
+    }
+
+    .sessão1 .sessão1-text h3 {
+      font-size: 24px;
+    }
+
+    
+    .sessão1 .sessão1-img {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .sessão1 .sessão1-img img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .dados p {
+      margin-bottom: 15px;
+      text-align: center;
+      transition: 0.3s;
+    }
+    
+    .dados .card-item {
+      margin: 10px;
+      border-radius: 10px;
+      width: 100%;
+      border: 3px solid #71767a23;
+    }
+    
+    .dados .card-item img {
+      width: 100%;
+      border-radius: 10px;
+      margin: 5px auto;
+    }
+    
+    .card-item .titulo {
+      font-size: medium;
+    }
+    
+    .cards {
+      flex-wrap: wrap;
+    }
+    
+    .dados .card-item:hover {
+      margin-top: -3px;
+    }
+
+    footer {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .right {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+
+    .left {
+      flex-grow: 1;
+      color: white;
+    }
+
+    
+    .práticas {
+      width: 100%;
+    }
+    
+    .IA p {
+      width: 100%;
+      max-width: 100%;
+    }
+    
+    .IA img {
+      border-radius: 10px;
+    }
+    
+    .contato-info {
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+    
+    .contato-info .left-side {
+      width: 100%;
+      padding: 15px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    
+    .contato-info .left-side div i {
+      font-size: 18px;
+      margin-right: 10px;
+    }
+    
+    .contato-info .left-side p {
+      font-size: 14px;
+    }
+    
+    .contato-info .right-side {
+      width: 100%;
+    }
+    
+    .contato-info .right-side input,
+    .contato-info .right-side textarea {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+      height: 30px;
+      padding: 8px;
+      border-radius: 9px;
+      transition: 0.3s;
+      border: 1px solid #f1f1f1;
+      color: #212121;
+      font-weight: lighter;
+    }
+    
+    .contato-info .right-side textarea {
+      padding: 8px;
+    }
+    
+    .galeria {
+      width: 100%;
+    }
+    
+}
