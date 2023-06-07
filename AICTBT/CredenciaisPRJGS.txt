@@ -32,7 +32,7 @@ URL:https://api.us-south.text-to-speech.watson.cloud.ibm.com/instances/3f436d80-
 <----------------------------------------------------------------------------------------------------------->
 
 <<<<<Telegram>>>>> 
-	Nome: @replenishthetableGS_bot
+Nome: @replenishthetableGS_bot
 
-	Token: 6064284821:AAH6BKO6TMuLXBllYDThgAK0bNuAly-1Xl8
+Token: 6064284821:AAH6BKO6TMuLXBllYDThgAK0bNuAly-1Xl8
 <-------------------------------------------------------------------------------------------------------------->
